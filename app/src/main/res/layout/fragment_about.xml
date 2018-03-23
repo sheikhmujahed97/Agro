@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="mainViewModel"
+            type="in.ac.vnrvjiet.convergence.presentation.home.MainViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E6E6E6">
+
+            <RelativeLayout
+                android:id="@+id/convergence_about_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10dp"
+                android:layout_marginRight="@dimen/size10dp"
+                android:layout_marginTop="@dimen/size10dp"
+                android:background="@drawable/about_background_layout">
+
+                <TextView
+                    android:id="@+id/convergence_about_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/material_green_convergence"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/convergence"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/convergence_about_heading"
+                    android:padding="@dimen/size10dp"
+                    android:text="@string/about_convergence_text"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/convergence_about_holder"
+                android:layout_marginLeft="@dimen/size10dp"
+                android:layout_marginRight="@dimen/size10dp"
+                android:layout_marginTop="@dimen/size20dp"
+                android:background="@drawable/about_background_layout">
+
+                <TextView
+                    android:id="@+id/vnrvjiet_about_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/material_green_convergence"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="VNRVJIET"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vnrvjiet_about_heading"
+                    android:padding="@dimen/size10dp"
+                    android:text="@string/vignanajyothi_society_was_established_twenty_years_ago"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</layout>

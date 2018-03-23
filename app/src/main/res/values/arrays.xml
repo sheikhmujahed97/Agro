@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contacts_person_name">
+        <item>M.V.SREEMANTH</item>
+        <item>G.N.S.MANOJ</item>
+        <item>D.KRANTHI</item>
+        <item>M.SAI.PHANINDRA</item>
+        <item>A.V SUJIT</item>
+        <item>J.SAI HARSHA</item>
+        <item>M.PARDHU</item>
+        <item>SAHIL JAIN</item>
+        <item>K.RAGHAVI</item>
+        <item>A.KIRAN</item>
+        <item>S.SAI KUMAR REDDY</item>
+        <item>B.TANMAI</item>
+        <item>G.ANURAG REDDY</item>
+        <item>K.VENKATESH</item>
+        <item>CH.RAM TEJA</item>
+        <item>A.VINEETH</item>
+        <item>SAKETH RAVULURI</item>
+        <item>MD.SHOEB ADNAN</item>
+        <item>C.ANJANI</item>
+        <item>S.AKHILESH VARMA</item>
+        <item>RAHUL TIRUVASKUR</item>
+        <item>M.MANISHA</item>
+        <item>D.PALLAVI</item>
+        <item>A.ANAND</item>
+        <item>K.VAISHNAVI</item>
+        <item>N.RANJITH SIVAKUMAR</item>
+        <item>N.MEENA RAO</item>
+        <item>B.KARTHIK</item>
+        <item>K.V.S SUMANTH</item>
+        <item>MANIDEEP KEERTHI</item>
+        <item>A.ROHITH REDDY</item>
+        <item>GOUSIA BEGUM</item>
+        <item>G.HANISHA</item>
+        <item>M.SAI KRISHNA</item>
+        <item>M.SARVANI</item>
+        <item>P.SUDEEP</item>
+        <item>S.SRIKANTH</item>
+        <item>A.VINAY</item>
+        <item>G.AKHIL</item>
+        <item>K.ANVESH</item>
+        <item>G.VISHAL</item>
+        <item>C.SHRUTHI REDDY</item>
+        <item>B.NAGA SUDHA</item>
+        <item>N.DINESH</item>
+        <item>M.SAI PAVAN</item>
+        <item>RAHUL SINGH THAKUR</item>
+        <item>B.V.SAI AKHIL</item>
+        <item>NAVYA SURABHI</item>
+        <item>K.HIAMBINDHU</item>
+    </string-array>
+
+    <string-array name="contacts_person_committee">
+        <item>STUDENT COORDINATOR</item>
+        <item>STUDENT COORDINATOR</item>
+        <item>TREASURY</item>
+        <item>TREASURY</item>
+        <item>SPONSORSHIP</item>
+        <item>SPONSORSHIP</item>
+        <item>SPONSORSHIP</item>
+        <item>SPONSORSHIP</item>
+        <item>EVENTS</item>
+        <item>EVENTS</item>
+        <item>WORKSHOPS</item>
+        <item>WORKSHOPS</item>
+        <item>GENERAL ARRANGMENTS</item>
+        <item>GENERAL ARRANGMENTS</item>
+        <item>DESIGNING</item>
+        <item>DESIGNING</item>
+        <item>REGISTRATIONS</item>
+        <item>REGISTRATIONS</item>
+        <item>CERTIFICATION</item>
+        <item>CERTIFICATION</item>
+        <item>PUBLIC RELATIONS</item>
+        <item>PUBLIC RELATIONS</item>
+        <item>PUBLIC RELATIONS</item>
+        <item>PUBLIC RELATIONS</item>
+        <item>WEB DESIGNING AND APP DEVELOPMENT</item>
+        <item>WEB DESIGNING AND APP DEVELOPMENT</item>
+        <item>TECHNICAL PRESENTATIONS</item>
+        <item>TECHNICAL PRESENTATIONS</item>
+        <item>REPORTING</item>
+        <item>REPORTING</item>
+        <item>REPORTING</item>
+        <item>DOCUMENTATION</item>
+        <item>DOCUMENTATION</item>
+        <item>INVENTORY</item>
+        <item>INVENTORY</item>
+        <item>INVENTORY</item>
+        <item>INVENTORY</item>
+        <item>INFRASTRUCTURE</item>
+        <item>INFRASTRUCTURE</item>
+        <item>INFRASTRUCTURE</item>
+        <item>INFRASTRUCTURE</item>
+        <item>HOSPITALITY</item>
+        <item>HOSPITALITY</item>
+        <item>TRANSPORTATION</item>
+        <item>TRANSPORTATION</item>
+        <item>SECURITY</item>
+        <item>SECURITY</item>
+        <item>SAARADHI</item>
+        <item>SAARADHI</item>
+    </string-array>
+
+    <string-array name="contacts_person_number">
+        <item>8125996499</item>
+        <item>9010855951</item>
+        <item>9618857424</item>
+        <item>8179772921</item>
+        <item>9866611234</item>
+        <item>9248323240</item>
+        <item>9550274912</item>
+        <item>8121178722</item>
+        <item>9642326097</item>
+        <item>7386702147</item>
+        <item>7675821705</item>
+        <item>9494231831</item>
+        <item>7702657588</item>
+        <item>8978773233</item>
+        <item>8977198177</item>
+        <item>7799123363</item>
+        <item>8790735654</item>
+        <item>9966617159</item>
+        <item>9100700791</item>
+        <item>9100700791</item>
+        <item>8686555385</item>
+        <item>9701404859</item>
+        <item>8106618574</item>
+        <item>9951970836</item>
+        <item>7093197251</item>
+        <item>7732079028</item>
+        <item>9573006910</item>
+        <item>8143817727</item>
+        <item>7675002412</item>
+        <item>9866199792</item>
+        <item>7680038399</item>
+        <item>8686203366</item>
+        <item>9000296666</item>
+        <item>8977388810</item>
+        <item>8338114241</item>
+        <item>9490974511</item>
+        <item>8466011110</item>
+        <item>8187010654</item>
+        <item>8686124690</item>
+        <item>8008474877</item>
+        <item>9848971927</item>
+        <item>9515867678</item>
+        <item>765068241</item>
+        <item>7032628140</item>
+        <item>9949633667</item>
+        <item>9000414183</item>
+        <item>9542496946</item>
+        <item>9948879533</item>
+        <item>9948776930</item>
+    </string-array>
+
+    <string-array name="events_names">
+        <item>MINI BUILDERS</item>
+        <item>ELECTROMANIA</item>
+        <item>TECH-PENDIUM</item>
+        <item>WHERE’S THE FLAG !\n(Capture it, If you can.....)</item>
+        <item>Mechanomania</item>
+        <item>SPEEDBOLT</item>
+        <item>Be An Entrepreneur</item>
+        <item>TIC TAC TECH</item>
+        <item>Circuit cracking</item>
+        <item>TECH SHOTGUN</item>
+        <item>CADwiz</item>
+        <item>GAME OF “STACKS &amp; QUEUES”</item>
+        <item>TECHWIZ</item>
+        <item>cele fiesta</item>
+        <item>CONVERGENCE HUNT</item>
+        <item>CODE MANIA</item>
+        <item>CIRCUIT CRACKING</item>
+        <item>TECH HUNT</item>
+        <item>DB Challengers</item>
+        <item>CLASH OF BRAINS</item>
+        <item>TECH SCINTILLA</item>
+        <item>MINDSWEEPER</item>
+        <item>DB Challengers</item>
+        <item>FIND THE CLUE</item>
+    </string-array>
+
+    <string-array name="event_round_count">
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="event_room_no">
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+    </string-array>
+
+    <string-array name="workshop_names">
+        <item>Ansys Simulation</item>
+        <item>Drones for Civil Engineering</item>
+        <item>Brain wave robotix</item>
+        <item>Internet of things</item>
+        <item>Accelerobotix</item>
+        <item>Machine Learning</item>
+        <item>Cognitive science and virtual reality</item>
+        <item>Advanced vehicle technologies and\nDynamic analysis using adams</item>
+        <item>Nano satellite workshop</item>
+    </string-array>
+
+    <string-array name="workshop_days">
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+        <item>unknown</item>
+    </string-array>
+
+    <string-array name="workshop_registration_fees">
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+    </string-array>
+
+    <string-array name="workshop_venue">
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+        <item>Not Available</item>
+    </string-array>
+</resources>

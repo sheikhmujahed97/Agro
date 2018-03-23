@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="adminViewModel"
+            type="in.ac.vnrvjiet.convergence.presentation.admin.AdminViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/admin_content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/adminBottomBar"
+            android:background="@android:color/transparent" />
+
+        <in.ac.vnrvjiet.convergence.presentation.util.bottombar.BottomBar
+            android:id="@+id/adminBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            app:bb_showShadow="true"
+            app:bb_tabXmlResource="@xml/admin_bottombar_tabs" />
+    </RelativeLayout>
+</layout>

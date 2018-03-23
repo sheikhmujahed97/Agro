@@ -1,0 +1,327 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="mainViewModel"
+            type="in.ac.vnrvjiet.convergence.presentation.home.MainViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/technical_presentation_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/material_green_convergence">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/back"
+                    android:onClick="@{() -> mainViewModel.replaceFragmentOnBackPress()}"
+                    android:padding="@dimen/size15dp"
+                    android:src="@drawable/ic_arrow_back_white_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/back"
+                    android:layout_toRightOf="@id/back"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/technical_presentation_contest"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/material_green_convergence"
+                    android:textSize="@dimen/size20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/technical_presentation_app_bar"
+            android:background="#E0E0E0"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/technical_presentation_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/size10dp"
+                    android:text="@string/techincal_presentation_summary"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/material_green_convergence"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:id="@+id/tp_domain_holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/technical_presentation_summary"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/tp_domain_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/tp_domain_names"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tp_domain_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tp_domain_heading"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/tp_domains_list"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tp_domain_list"
+                        android:paddingBottom="@dimen/size10dp"
+                        android:paddingLeft="@dimen/size10dp"
+                        android:paddingRight="@dimen/size10dp"
+                        android:text="@string/each_winning_papers_receives_merit_certificate_and_prize_money_for_each_domain"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tp_submission_guidelines"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tp_domain_holder"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/tp_submission_guidelines_heading"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/tp_submission_guidelines_text"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tp_submission_guidelines_text"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tp_submission_guidelines_heading"
+                        android:autoLink="web|email"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/tp_submission_guidelines"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tp_evaluation_process"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tp_submission_guidelines"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/tp_evaluation_process_heading"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/tp_evaluation_process_text"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tp_evaluation_process_body"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tp_evaluation_process_heading"
+                        android:autoLink="web|email"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/tp_evaluation_process"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tp_important_dates"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tp_evaluation_process"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/tp_important_dates_heading"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/important_dates"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tp_important_dates_content"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tp_important_dates_heading"
+                        android:autoLink="web|email"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/last_date_for_submission_of_paper_january_25th_2018_date_of_intimation_regarding_selected_papers_on_or_before_february_01th_2018_date_of_presentation_february_05th_07th_2018"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tp_registration_fees"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tp_important_dates"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/tp_registration_fees_heading"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/registration_fee"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tp_registration_fees_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tp_registration_fees_heading"
+                        android:autoLink="web|email"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/spot_registrations_for_selected_papers_are_done_on_the_day_of_presentation_as_mentioned_in_the_confirmation_mail_registration_fee_for_paper_rs_300"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tp_contact_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tp_registration_fees"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/tp_contact_details_heading"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/contact_details"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tp_contact_details_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tp_contact_details_heading"
+                        android:autoLink="web|email|phone"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/karthik_918143817727_meena_rao_919573006910"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/further_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tp_contact_details"
+                    android:layout_margin="@dimen/size10dp"
+                    android:autoLink="web|email|phone"
+                    android:paddingBottom="@dimen/size10dp"
+                    android:paddingEnd="@dimen/size10dp"
+                    android:paddingRight="@dimen/size10dp"
+                    android:paddingTop="@dimen/size10dp"
+                    android:text="@string/email_your_paper_to_presentations_convergence2k18_gmail_com_for_further_updates_visit_facebook_com_technicalpresentation2k18"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/material_green_convergence"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlSymmetry" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

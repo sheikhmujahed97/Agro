@@ -1,0 +1,213 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="mainViewModel"
+            type="in.ac.vnrvjiet.convergence.presentation.home.MainViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/hackathon_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/material_green_convergence">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/back"
+                    android:onClick="@{() -> mainViewModel.replaceFragmentOnBackPress()}"
+                    android:padding="@dimen/size15dp"
+                    android:src="@drawable/ic_arrow_back_white_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/back"
+                    android:layout_toRightOf="@id/back"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/hackathon"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/material_green_convergence"
+                    android:textSize="@dimen/size20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/hackathon_app_bar"
+            android:background="#E0E0E0"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/hackathon_summary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/size10dp"
+                    android:text="@string/hackathon_summary_text"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/material_green_convergence"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:id="@+id/hackathon_participation_levels_holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hackathon_summary_text"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/hackathon_participation_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/hackathon_participation_level"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hackathon_participation_levels_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/hackathon_participation_heading"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/_1_junior_level_participants_from_1st_and_2nd_year_of_engineering_are_eligible_for_this_level"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/junior_level_rules_holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hackathon_participation_levels_holder"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/hackathon_junior_level_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/junior_level"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/junior_level_rules"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/hackathon_junior_level_heading"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/junior_level_rules"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/senior_level_rules_holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/junior_level_rules_holder"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/hackathon_senior_level_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/senior_level"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/senior_level_rules"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/hackathon_senior_level_heading"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/senior_level_domains"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/hackathon_contact_details_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/senior_level_rules_holder"
+                    android:layout_margin="@dimen/size10dp"
+                    android:background="@drawable/about_background_layout">
+
+                    <TextView
+                        android:id="@+id/hackathon_contact_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/material_green_convergence"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="Contact Details"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hackathon_contact_details_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/hackathon_contact_details"
+                        android:padding="@dimen/size10dp"
+                        android:text="@string/hackathon_contact_numbers"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/material_green_convergence"
+                        android:textIsSelectable="true" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+</layout>

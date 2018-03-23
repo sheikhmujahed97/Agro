@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_home_white_24dp"
+        id="@+id/tab_home"
+        title="@string/home" />
+    <tab
+        icon="@drawable/ic_person_pin_white_24dp"
+        id="@+id/tab_contact"
+        title="@string/contact" />
+    <tab
+        icon="@drawable/ic_developer_mode_white_24dp"
+        id="@+id/tab_about"
+        title="@string/about" />
+    <tab
+        icon="@drawable/ic_android_white_24dp"
+        id="@+id/tab_profile"
+        title="@string/profile" />
+</tabs>

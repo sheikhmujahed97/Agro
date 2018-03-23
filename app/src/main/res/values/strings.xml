@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Convergence 2k18</string>
+    <string name="convergence_logo">Convergence Logo</string>
+    <string name="google">Google</string>
+    <string name="next">Next</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="resend">Resend</string>
+    <string name="toast">Toast</string>
+    <string name="toast_icon">Toast Icon</string>
+    <string name="contact_image">Contact Image</string>
+    <string name="contact_icon">Contact Icon</string>
+    <string name="committee_name">Committee Name</string>
+    <string name="home">Home</string>
+    <string name="participants">Participants</string>
+    <string name="manage">Manage</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="no_internet">No Internet</string>
+    <string name="participate_in_event">Participate in Event</string>
+    <string name="convergence">Convergence</string>
+    <string name="sync_my_data">Sync My Data</string>
+    <string name="profile">Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="saaradhi">Saaradhi</string>
+    <string name="about_convergence_text">
+        The National level technical symposiam, Convergence has evolved as an ultimate platform for the techno-maniacs, as it does every year. The 2016 reloaded edition has taken up an untrodden path on its way to be stupendous, throwing light on new ideas.It is a cluster of events and acitivities spread over three days involving the students of various institutions from every nook and corner of the country.Convergence is now celebrating its 19 year legacy.
+    </string>
+    <string name="vignanajyothi_society_was_established_twenty_years_ago">
+        Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology (VNRVJIET) is an engineering college in Hyderabad, India recognized by All India Council for Technical Education(AICTE) and affiliated to the Jawaharlal Nehru Technological University, Hyderabad. It is often referred to as VNR College or Vignana Jyothi Engineering College or VNRVJIET.\n\n
+        All the undergraduate programs in the institute are accredited by the National Board of Accreditation (NBA) New Delhi, since 2008. The institute has been conferred "Autonomous" status by its parent university - Jawaharlal Nehru Technological University (JNTU) Hyderabad. The institute has been selected under the TEQIP funding scheme. The UGC inspection team have visited the campus in 2012 and awarded "Autonomous" status. VNRVJIET has been made NAAC A— Grade (1.21/4).
+    </string>
+    <string name="resend_in">Resend in :</string>
+    <string name="technical_presentation_contest">Technical Presentation Contest</string>
+    <string name="back">Back</string>
+    <string name="techincal_presentation_summary">Present your Technical paper in Hyderabad’s biggest technical fest CONVERGENCE 2018 and win amazing cash prizes.</string>
+    <string name="tp_domains_list">Domain A (ME, CE, AME)\nDomain B (IT, CSE)\nDomain C (ECE, EIE, EEE)\nDomain D (Space related, latest technologies &amp; any other topic)</string>
+    <string name="tp_submission_guidelines">
+        1. All papers must be in English only.\n
+        2. A paper may have a maximum of two (2) authors/presenters only.\n
+        3. The topic should be chosen related to domain names as listed above.\n
+        4. Paper should follow IEEE format and should not exceed 15 pages.\n
+        5. Please mail your paper(.doc /.pdf format) &amp; ppt(.pptx format) to presentations.convergence2k18@gmail.com. The subject of the mail should have the details of the participant (such as Domain name, Title of the paper, Name, phone no &amp; E-mail ID of both authors).\n
+        6. Team members should fill google form https://goo.gl/forms/Fv4i4d1aLyOeMt4g1 so that no delay occur in certificate distribution. \n
+        7. Selected papers will be intimated through their respective mail-ids.\n
+        8. Please bring your PowerPoint presentation on pen-drive\n
+        9. Please bring two (2) hardcopies of the submitted paper on the day of the event.\n
+        10. The team will get ten (10) minutes for presentation followed by queries.\n
+        11. Bring your college ID on event day.\n
+    </string>
+    <string name="tp_evaluation_process">
+        1. All submitted papers will be reviewed and evaluated by expert committee of faculty members from various academic departments of the institute.\n
+        2. Evolution is based on originality of content, technical correctness, future scope, consistency of language and expression, readability.\n
+        3. Each selected paper will be invited for presentation (.pptx format) at convergence 2k18 (participants with any other format have to get their own laptops)\n
+        4. Presentation skills are also evaluated.\n
+        5. The decision of judges will be final and no arguments or appeal will be entertained.
+    </string>
+    <string name="tp_domain_names">Domain Names</string>
+    <string name="tp_submission_guidelines_text">Submission Guidelines</string>
+    <string name="tp_evaluation_process_text">Evaluation Process</string>
+    <string name="each_winning_papers_receives_merit_certificate_and_prize_money_for_each_domain">Each winning papers receives merit certificate and prize money for each domain.</string>
+    <string name="important_dates">Important Dates</string>
+    <string name="last_date_for_submission_of_paper_january_25th_2018_date_of_intimation_regarding_selected_papers_on_or_before_february_01th_2018_date_of_presentation_february_05th_07th_2018">
+        Last date for submission of paper : January 25th, 2018\n\n
+        Date of intimation regarding selected papers (on or before) : February 01th, 2018\n\n
+        Date of presentation : February 05th – 07th, 2018
+    </string>
+    <string name="registration_fee">Registration Fee</string>
+    <string name="spot_registrations_for_selected_papers_are_done_on_the_day_of_presentation_as_mentioned_in_the_confirmation_mail_registration_fee_for_paper_rs_300">
+        1. Spot registrations (for selected papers) are done on the day of presentation as mentioned in the confirmation mail.\n\n2. Registration fee for paper Rs. 300/-
+    </string>
+    <string name="contact_details">Contact Details</string>
+    <string name="karthik_918143817727_meena_rao_919573006910">Karthik : +918143817727\nMeena Rao : +919573006910</string>
+    <string name="email_your_paper_to_presentations_convergence2k18_gmail_com_for_further_updates_visit_facebook_com_technicalpresentation2k18">
+        Email your paper to:\npresentations.convergence2k18@gmail.com\n\nFor further updates visit:\nfacebook.com/technicalpresentation2k18
+    </string>
+    <string name="hackathon">Hackathon</string>
+    <string name="hackathon_summary_text">The hackathon is conducted by TuringHut, Programming club of VNRVJIET.\nThis provides a platform to show up your skills and get rewarded for the same</string>
+    <string name="hackathon_participation_level">Participation Levels</string>
+    <string name="_1_junior_level_participants_from_1st_and_2nd_year_of_engineering_are_eligible_for_this_level">
+        1. Junior Level : Participants from 1st and 2nd year of Engineering are eligible for this level
+        \n
+        \n2. Senior Level : Participants from 3rd and 4th year of Engineering are eligible for this level
+    </string>
+    <string name="junior_level">Junior level</string>
+
+    <string name="junior_level_rules">
+        1. Participants would be given with set of programming challenges, which are to be solved with in given amount of time.\n2. The participation type is single participation but not as a team.\n3. Those who stand top in the leader board, would be declared as winner in the level.\n4. The winners would be given direct entry to the TuringHut club for the year 2018-19
+    </string>
+
+    <string name="senior_level_domains">
+        1. Participants of this level would be given with a challenge based on the domain they take up\n2. The challenge includes building an application or an algorithm.\n3. The task has to be completed with in the time provided\n4. The source code has to be submitted to the organisers for the evaluation.\n5. The winners of the corresponding domain would be provided with the internship opportunity\n6. Senior level includes Android, iOS, Web, MachineLearning domains.
+    </string>
+    <string name="senior_level">Senior Level</string>
+    <string name="hackathon_contact_numbers">1. Tarun Kumar : +919000601770\n2. Shoeb :9701795383</string>
+    <string name="events">Events</string>
+    <string name="workshops">Workshops</string>
+
+</resources>

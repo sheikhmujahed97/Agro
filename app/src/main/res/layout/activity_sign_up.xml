@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="signUpViewModel"
+            type="in.ac.vnrvjiet.convergence.presentation.signup.SignUpViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/convergence_signup_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/convergence_logo"
+            android:src="@drawable/splash_logo" />
+
+        <Button
+            android:id="@+id/google_signin"
+            style="@style/signin_button_style"
+            android:layout_below="@id/convergence_signup_logo"
+            android:layout_marginTop="@dimen/size40dp"
+            android:drawableLeft="@drawable/google_icon"
+            android:drawableStart="@drawable/google_icon"
+            android:onClick="@{() -> signUpViewModel.googleSignUpClick()}"
+            android:text="@string/google" />
+
+    </RelativeLayout>
+</layout>
